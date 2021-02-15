@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>please rate your service</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="" class=logo alt="lexus" />
+        <!-- <todo put dynamic message if the user forgot to put messaeg></todo> -->
+        <form action="/submit" method="POST">
+            <!--the route of=/submit will be handled Flask-->
+            <input type="text" name="customer name" placeholder="Tells us about the service you have received d you like?" />
+        </form>
+
+    </div>
+    <div>
+        <input type="submit" value="Submit" class="submit-btn" />
+    </div>
+
+
+</body>
+
+</html>
